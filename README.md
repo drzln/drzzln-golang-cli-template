@@ -1,2 +1,11 @@
 # drzzln-golang-cli-template
-cli template for golang
+go-hello/
+├── flake.nix
+├── go.mod
+├── go.sum
+├── cmd/
+│   └── hello/
+│       └── main.go
+└── pkg/
+    └── hellolib/
+        └── greet.go
