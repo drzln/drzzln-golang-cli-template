@@ -19,7 +19,7 @@
 
       subPackages = ["cmd/hello"];
 
-      vendorSha256 = pkgs.lib.fakeSha256; # replace after first build
+      vendorHash = null;
     };
 
     devShells.${system}.default = pkgs.mkShell {
